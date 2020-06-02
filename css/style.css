@@ -18,6 +18,7 @@ a{
 	color: #212531;
 	text-decoration: none;
 	margin-top: 20px;
+	font-size: 18px;
 }
 
 a>img{
@@ -32,7 +33,17 @@ nav.menu{
 }
 
 a:hover{
-	border-style: solid;
-	border-color: #546DE5;
-	border-width: thin;
+	text-decoration: underline;
+	text-decoration-color: #546DE5;
+	border-width: 3px;
 }
+
+/** section vidéo */
+
+/** section description */
+
+/** section etage */
+
+/** section interview */
+
+/** section footer */

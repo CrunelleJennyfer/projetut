@@ -52,13 +52,17 @@ a:hover{
 }
 
 /** section vidéo */
-.video_promo{
-	display: flex;
+.video-responsive {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
 }
 
-iframe{
-	width: 100%;
-	border: none;
+.video-responsive iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    overflow: hidden;
 }
 
 /** section description */

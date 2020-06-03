@@ -80,6 +80,18 @@ a:hover{
 }
 
 /** section etage */
+.etage>div{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.etage-item{
+	overflow: hidden;
+	display: block;
+	position: relative;
+	margin: 0;
+}
 
 
 /** section interview */

@@ -23,8 +23,8 @@ a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
-	margin-top: 5%;
-	font-size: 2rem;
+	margin-top: 3%;
+	font-size: 2.5rem;
 	padding: 20px;
 }
 
@@ -52,20 +52,32 @@ a:hover{
 }
 
 /** section vidéo */
-.video-responsive {
+.video-promo {
     position: relative;
     width: 100%;
     padding-bottom: 56%;
 }
 
-.video-responsive iframe {
+.video-promo iframe {
     height: 100%;
     width: 100%;
     position: absolute; 
     overflow: hidden;
+	border: none;
 }
 
 /** section description */
+.description{
+	text-align: center;
+	font-size: 2rem;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.description p{
+	background-color: #FFFFFF;
+	
+}
 
 /** section etage */
 

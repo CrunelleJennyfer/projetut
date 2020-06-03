@@ -25,6 +25,7 @@ a{
 
 a>img{
 	margin-top: -10px;
+	width: 100px;
 }
 
 nav.menu{
@@ -41,6 +42,18 @@ a:hover{
 }
 
 /** section vidéo */
+.video_promo{
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+iframe{
+	width: 1900px;
+	height: 700px;
+}
 
 /** section description */
 

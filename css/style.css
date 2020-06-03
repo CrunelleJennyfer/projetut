@@ -23,19 +23,19 @@ a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
-	margin-top: 50px;
+	margin-top: 5%;
 	font-size: 2rem;
 	padding: 20px;
 }
 
 img#logo{
-	margin-top: -50px;
+	margin-top: -6%;
 	max-width: 45%;
 	height: auto;
 }
 
 img#lang{
-	margin-top: -10px;
+	margin-top: -1%;
 	max-width: 20%;
 	height: auto;
 }

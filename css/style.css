@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html{
+	font-size: 65%;
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	background-image: url(../images/fond_clair.png);
@@ -19,40 +23,42 @@ a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
-	margin-top: 20px;
-	font-size: 18px;
+	margin-top: 50px;
+	font-size: 2rem;
+	padding: 20px;
 }
 
-a>img{
+img#logo{
+	margin-top: -50px;
+	max-width: 45%;
+	height: auto;
+}
+
+img#lang{
 	margin-top: -10px;
-	width: 100px;
+	max-width: 20%;
+	height: auto;
 }
 
 nav.menu{
 	display: flex;
 	justify-content: space-around;
-	width: 80%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 a:hover{
 	text-decoration: underline;
 	text-decoration-color: #546DE5;
-	border-width: 3px;
 }
 
 /** section vidéo */
 .video_promo{
-	position: relative;
-	overflow: hidden;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 iframe{
-	width: 1900px;
-	height: 700px;
+	width: 100%;
+	border: none;
 }
 
 /** section description */

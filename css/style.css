@@ -1,3 +1,4 @@
+/** section tout le site */
 *{
 	margin: 0;
 	padding: 0;
@@ -19,12 +20,6 @@ h1{
 	font-weight: lighter;
 }
 
-/** HEADER */
-.header{
-	text-align: center;
-	background-color: #FFFFFF;
-}
-
 a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
@@ -34,13 +29,20 @@ a{
 	padding: 20px;
 }
 
-img#logo{
+/** HEADER */
+.header{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+
+.header img#logo{
 	margin-top: -6%;
 	max-width: 45%;
 	height: auto;
 }
 
-img#lang{
+.header img#lang{
 	margin-top: -1%;
 	max-width: 20%;
 	height: auto;
@@ -52,7 +54,7 @@ nav.menu{
 	margin: 0 auto;
 }
 
-a:hover{
+.header a:hover{
 	text-decoration: underline;
 	text-decoration-color: #546DE5;
 }
@@ -107,9 +109,11 @@ a:hover{
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.5rem;
+	display: block;
 }
 
 .footer img#logo{
 	width: 5%;
 }
+
 /** section form */

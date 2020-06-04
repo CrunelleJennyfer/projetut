@@ -13,6 +13,12 @@ body{
 	background-size: cover;
 }
 
+h1{
+	font-family: 'gilbert-color-bold-preview5';
+	font-size: 2rem;
+	font-weight: lighter;
+}
+
 /** HEADER */
 .header{
 	text-align: center;

@@ -60,6 +60,39 @@ nav.menu{
 	text-decoration-color: #546DE5;
 }
 
+#menu-derou, #menu-derou ul{
+	list-style: none;
+}
+
+#menu-derou{
+	text-align: center;
+}
+
+
+#menu-derou li{
+	display: inline-block;
+}
+
+#menu-derou ul li{
+	display: inherit;
+}
+
+#menu-derou a {
+	display: block;
+}
+
+#menu-derou ul{
+	position: absolute;
+	left: -999em;
+	text-align: left;
+}
+
+#menu-derou li:hover ul{
+	left: auto;
+	background-color: #FFFFFF;
+	z-index: 2;
+}
+
 /** section vidéo */
 .video-promo {
     position: relative;

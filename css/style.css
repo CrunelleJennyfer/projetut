@@ -97,3 +97,13 @@ a:hover{
 /** section interview */
 
 /** section footer */
+.footer{
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5rem;
+}
+
+.footer img#logo{
+	width: 5%;
+}
+/** section form */

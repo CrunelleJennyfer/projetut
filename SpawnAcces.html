@@ -1,0 +1,75 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="css/SpawnAcces.css">
+        <link href="https://fonts.fontself.com/gE309jx/gilbert-color-bold-preview5.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <title>Spawn</title>
+    </head>
+    <body>
+
+<div id="footer">
+  <div id="log">
+
+  </div>
+
+  <div id="bouton">
+    <a href="#" id="Doc">document</a>
+    <a href="#" id="Acc">accés</a>
+    <a href="#" id="Pro">Programme</a>
+    <a href="SpawnPresse.html" id="Pre">presse</a>
+    <a href="#" id="Con">contact</a>
+
+    <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+</div>
+
+
+</div>
+
+  </div>
+  <div id="main">
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+  function switchTheme(e) {
+  if (e.target.checked) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+
+  }
+  else {
+      document.documentElement.setAttribute('data-theme', 'light');
+  }
+  }
+
+  toggleSwitch.addEventListener('change', switchTheme, false);
+  function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }
+  }
+    </script>
+    </body>

@@ -34,7 +34,7 @@ a{
 .header{
 	text-align: center;
 	background-color: #FFFFFF;
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 1;
 }
 

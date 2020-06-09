@@ -4,7 +4,7 @@
     --primary-color: #302AE6;
     --secondary-color: #536390;
     --footer-color : white;
-      --background-image: url(../images/fond_clair.png);
+      --background-image: url(../images/fond_clair_ok.jpg);
     --font-color: black;
     --heading-color: #292922;
     --line-color : white;
@@ -17,7 +17,7 @@
     --secondary-color: #818cab;
     --font-color:white;
     --footer-color : black;
-    --background-image: url(../images/fond_dark.png);
+    --background-image: url(../images/fond_dark_ok.jpg);
     --heading-color: #818cab;
     --line-color : black;
     --btnline-color : none;
@@ -63,7 +63,8 @@ body{
   font-family: 'Comfortaa', cursive;
 
   background-image: var(--background-image);
-  background-size: cover;
+	background-repeat: repeat;
+  background-size: 100px;
   color: var(--font-color);
   transition: 0.5s ease;
 

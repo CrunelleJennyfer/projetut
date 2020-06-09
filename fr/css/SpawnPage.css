@@ -31,12 +31,16 @@ html{
 	font-size: 65%;
 }
 
+p, li{
+	font-size: 1.8rem;
+}
 
 h1{
 	font-family: 'gilbert-color-bold-preview5';
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: lighter;
 	text-align: center;
+	padding-top: 1%;
 }
 
 a{

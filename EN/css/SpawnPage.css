@@ -34,24 +34,16 @@ html{
 
 h1{
 	font-family: 'gilbert-color-bold-preview5';
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: lighter;
 	text-align: center;
-	padding-top: 1%;
-}
-
-p{
-	font-size: 1.8rem;
-}
-
-li{
-	font-size: 1.8rem;
 }
 
 a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
+	m
 	font-size: 2.5rem;
 
 }
@@ -141,6 +133,7 @@ text-align: center;
 .theme-switch-wrapper {
   display :inline;
   align-items: center;
+  padding-left: 67px;
 
 
 }
@@ -222,6 +215,7 @@ input:checked + .slider:before {
 }
 
 /** section etage */
+
 .etage>div{
 	display: flex;
 	justify-content: space-around;
@@ -233,6 +227,7 @@ input:checked + .slider:before {
 	display: block;
 	position: relative;
 	margin: 0;
+
 }
 
 

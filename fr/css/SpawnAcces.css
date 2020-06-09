@@ -31,13 +31,10 @@ html{
 	font-size: 65%;
 }
 
-p{
-	font-size: 1.8rem;
-}
 
 h1{
 	font-family: 'gilbert-color-bold-preview5';
-	font-size: 2.3rem;
+	font-size: 2rem;
 	font-weight: lighter;
 	text-align: center;
 }
@@ -46,6 +43,7 @@ a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
+	m
 	font-size: 2.5rem;
 
 }
@@ -61,19 +59,7 @@ body{
 }
 .acces{
   text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 5%;
 }
-
-.acces iframe, .acces h1, .acces p{
-	background-color: #FFFFFF;
-}
-
-.acces h1{
-	padding-top: 1%;
-}
-
 #log {
   margin-left:20px;
   margin-top: 20px;

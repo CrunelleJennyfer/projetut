@@ -31,6 +31,10 @@ html{
 	font-size: 65%;
 }
 
+#bill{
+	width: 100%;
+}
+
 p, li{
 	font-size: 1.8rem;
 }
@@ -76,9 +80,9 @@ body{
 transition: 0.5s ease;
 
 
-
-
 }
+
+
 #header{ font-family: 'Comfortaa', cursive;
  position: fixed;
 padding-top: 20px;

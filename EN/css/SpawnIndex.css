@@ -246,6 +246,7 @@ input:checked + .slider:before {
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.5rem;
 	display: block;
+	background-color: #FFFFFF;
 }
 
 .footer img#logo{

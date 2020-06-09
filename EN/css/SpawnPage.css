@@ -249,6 +249,7 @@ input:checked + .slider:before {
 	display: block;
   bottom: 0;
   position:relative;
+	background-color: #FFFFFF;
 }
 
 .footer img#logo{

@@ -28,6 +28,7 @@ border-radius: 60px;
 	display: block;
   bottom: 0;
   position:absolute;
+	background-color: #FFFFFF;
 }
 .theme-switch-wrapper {
   display :inline;

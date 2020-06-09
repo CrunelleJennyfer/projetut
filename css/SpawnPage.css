@@ -34,16 +34,24 @@ html{
 
 h1{
 	font-family: 'gilbert-color-bold-preview5';
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: lighter;
 	text-align: center;
+	padding-top: 1%;
+}
+
+p{
+	font-size: 1.8rem;
+}
+
+li{
+	font-size: 1.8rem;
 }
 
 a{
 	font-family: 'Comfortaa', cursive;
 	color: #212531;
 	text-decoration: none;
-	m
 	font-size: 2.5rem;
 
 }

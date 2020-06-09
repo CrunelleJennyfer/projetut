@@ -203,31 +203,31 @@ input:checked + .slider:before {
 
 /** section description */
 .description{
-  color: var(--font-color);
-	text-align: center;
+	color: var(--font-color);
 	font-size: 2rem;
 	padding-left: 10%;
 	padding-right: 10%;
-  transition: 0.5s ease;
+	transition: 0.5s ease;
 
 }
 
 .description p{
 	background-color: var(--footer-color);
-
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: justify;
 }
 
 /** section etage */
 .etage>div{
-
 	display: flex;
 	justify-content: space-around;
-
-
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .etage-item{
-  color: var(--font-color);
+	background-color: var(--footer-color);
 	overflow: hidden;
 	display: block;
 	position: relative;
@@ -235,6 +235,26 @@ input:checked + .slider:before {
   transition: 0.5s ease;
 }
 
+.etage img{
+	width: 95%;
+}
+
+.etage a{
+	text-align: center;
+}
+
+.interview{
+	display: flex;
+	justify-content: space-around;
+}
+
+.interview iframe{
+	padding-left: 21.5%;
+	padding-right: 21.5%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	background-color: #FFFFFF;
+}
 
 .footer{
 	text-align: center;

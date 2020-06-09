@@ -2,8 +2,6 @@
   text-align: center;
   padding-bottom: 30px;
 }
-
-
 #download a{
   font-size: 30px;
 
@@ -15,12 +13,19 @@ border-radius: 60px;
   padding-right: 40px;
   padding-left: 40px;
   transition: 0.5s ease;
-	
-	background-color: #FFFFFF
 
 }
 #download a:hover{
 
   border-radius: 60px;
   border: solid 5px #546DE5;
+}
+
+.footer{
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5rem;
+	display: block;
+  bottom: 0;
+  position:absolute;
 }

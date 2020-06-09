@@ -35,41 +35,11 @@
 </div>
   </div>
 	<div id="main">
-    <section id="expo" class="expo">
-			<h1 id="RDC">Rez-de-chaussé</h1>
-			<img src="images/RDC.JPG" alt="RDC">
-			<p>Restauration</p><p>Animation</p><p>Vestiaire</p>
 
+<a href="images/Billet Clair.png"><img src="images/Billet Clair.png"></a>
+<a href="images/Billet foncé.png"><img src="images/Billet foncé.png"></a>
 
-			<h1 id="1etage">1er étage : les écoles</h1>
-			<img src="images/1etage.JPG" alt="1etage">
-			<p>Plaine Images</p><p>Serre Numérique</p><p>Pôle IIID</p><p>ECV (Lille)</p><p>3axes Institut</p><p>ArtFX</p><p>Rubika</p><p>E-artsup</p>
-
-			<h1 id="2etage">2ème étage : les entreprises</h1>
-			<img src="images/2etage.JPG" alt="2etage">
-			<p>ANKAMA</p><p>Accidental Queens</p><p>Couch Game Crafters</p><p>CCCP</p><p>Ironequal</p><p>Kluster Games</p><p>Too Kind studios</p><p>Klondike</p>
-			<p>Augmenteo</p><p>VERTICAL</p><p>1P2P</p><p>Aardwolf Interactive</p><p>Mighty Rocket Studio </p>
-
-		</section>
-
-		<section id="event" class="event">
-			<h1>Animation</h1>
-			<ul>
-				<li>Vendredi 10h30, Atelier guidé d'écriture pour les jeux vidéos</li>
-				<li>Samedi 10h30, Les métiers du jeux vidéos : présentation</li>
-				<li>Samedi 14h30, Les métiers de l'image et de l'animation : présentation</li>
-				<li>Dimanche 10h30, Pourquoi est-il important de soutenir le marché du jeu vidéo indépendant</li>
-				<li>Dimanche 14h30, Présentation des jeux vidéos en compétition</li>
-				<li>Dimanche 17h00, Remise des prix </li>
-			</ul>
-		</section>
-
-		<section id="concour" class="concour">
-			<h1>Concours</h1>
-
-		</section>
-
-</div>
+    </div>
 		<footer class="footer">
 			<p>Suiver l'actu de l'événement sur les réseaux</p>
 			<div class="RS">
@@ -90,29 +60,29 @@
 
 		</footer>
 		<script type="text/javascript">
-		const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-		function switchTheme(e) {
-		if (e.target.checked) {
-			document.documentElement.setAttribute('data-theme', 'dark');
+  function switchTheme(e) {
+  if (e.target.checked) {
+      document.documentElement.setAttribute('data-theme', 'dark');
 
-		}
-		else {
-			document.documentElement.setAttribute('data-theme', 'light');
-		}
-		}
+  }
+  else {
+      document.documentElement.setAttribute('data-theme', 'light');
+  }
+  }
 
-		toggleSwitch.addEventListener('change', switchTheme, false);
-		function switchTheme(e) {
-		if (e.target.checked) {
-				document.documentElement.setAttribute('data-theme', 'dark');
-				localStorage.setItem('theme', 'dark'); //add this
-		}
-		else {
-				document.documentElement.setAttribute('data-theme', 'light');
-				localStorage.setItem('theme', 'light'); //add this
-		}
-		}
-		</script>
+  toggleSwitch.addEventListener('change', switchTheme, false);
+  function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }
+  }
+    </script>
 	</body>
 </html>

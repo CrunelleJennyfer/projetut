@@ -218,6 +218,10 @@ input:checked + .slider:before {
 
 }
 
+#plan{
+	width: 100%;
+}
+
 /** section etage */
 .etage>div{
 	display: flex;

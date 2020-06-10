@@ -35,9 +35,15 @@
 </div>
   </div>
 	<div id="main">
+<p>Télécharger et/ou imprimer vos billets en cliquant dessus<p>
+  <!--startprint1-->
+<a href="images/Billet Clair.png" onclick="doPrint1()"><img id="bill" src="images/Billet Clair.png"></a>
+<!--endprint1-->
 
-<a href="images/Billet Clair.png"><img id="bill" src="images/Billet Clair.png"></a>
-<a href="images/Billet foncé.png"><img id="bill" src="images/Billet foncé.png"></a>
+
+  <!--startprint2-->
+<a href="images/Billet foncé.png" onclick="doPrint2()"><img id="bill" src="images/Billet foncé.png"></a>
+<!--endprint2-->
 
     </div>
     <footer class="footer">
@@ -66,27 +72,45 @@
 		<script type="text/javascript">
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-  function switchTheme(e) {
-  if (e.target.checked) {
-      document.documentElement.setAttribute('data-theme', 'dark');
+		function switchTheme(e) {
+		if (e.target.checked) {
+			document.documentElement.setAttribute('data-theme', 'dark');
 
-  }
-  else {
-      document.documentElement.setAttribute('data-theme', 'light');
-  }
-  }
+		}
+		else {
+			document.documentElement.setAttribute('data-theme', 'light');
+		}
+		}
 
-  toggleSwitch.addEventListener('change', switchTheme, false);
-  function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark'); //add this
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light'); //add this
-    }
-  }
+		toggleSwitch.addEventListener('change', switchTheme, false);
+		function switchTheme(e) {
+		if (e.target.checked) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+				localStorage.setItem('theme', 'dark'); //add this
+		}
+		else {
+				document.documentElement.setAttribute('data-theme', 'light');
+				localStorage.setItem('theme', 'light'); //add this
+		}
+		}
+  function doPrint1() {
+     bdhtml=window.document.body.innerHTML;
+     sprnstr="<!--startprint1-->";
+     eprnstr="<!--endprint1-->";
+     prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17);
+     prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));
+     window.document.body.innerHTML=prnhtml;
+     window.print();
+     }
+     function doPrint2() {
+        bdhtml=window.document.body.innerHTML;
+        sprnstr="<!--startprint2-->";
+        eprnstr="<!--endprint2-->";
+        prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17);
+        prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));
+        window.document.body.innerHTML=prnhtml;
+        window.print();
+        }
     </script>
 	</body>
 </html>

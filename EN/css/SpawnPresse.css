@@ -31,6 +31,9 @@ border-radius: 60px;
 	background-color: var(--footer-color);
   transition: 0.5s ease;
 }
+.footer p{
+	padding-top: 2%;
+}
 .theme-switch-wrapper {
   display :inline;
   align-items: center;

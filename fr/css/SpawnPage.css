@@ -290,3 +290,6 @@ display: inline-block;
 .footer img#logo{
 	width: 5%;
 }
+.footer p{
+	padding-top: 2%;
+}

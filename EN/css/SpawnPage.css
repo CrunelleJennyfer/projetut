@@ -264,6 +264,10 @@ input:checked + .slider:before {
 .footer img#logo{
 	width: 5%;
 }
+.footer p{
+	padding-top: 2%;
+}
+
 #YT{
 background-image:  var(--logo-YT);
 background-repeat: no-repeat;

@@ -22,6 +22,9 @@
 
 
 }
+.footer p{
+	padding-top: 2%;
+}
 .form input{
   border-color: black black;
   border-radius: 30px;

@@ -264,6 +264,9 @@ input:checked + .slider:before {
 	background-color:var(--footer-color);
   transition: 0.5s ease;
 }
+.footer p{
+	padding-top: 1%;
+}
 #YT{
 background-image:  var(--logo-YT);
 background-repeat: no-repeat;

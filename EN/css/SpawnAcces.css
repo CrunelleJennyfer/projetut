@@ -260,12 +260,12 @@ input:checked + .slider:before {
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.5rem;
 	display: block;
-	padding-top: 2%;
 	background-color: var(--footer-color);
   transition: 0.5s ease;
 }
 .footer p{
-	padding-top: 1%;
+	padding-top: 2%;
+	margin-top: 5%;
 }
 #YT{
 background-image:  var(--logo-YT);

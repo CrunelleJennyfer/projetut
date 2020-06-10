@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="css/SpawnPage.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.fontself.com/gE309jx/gilbert-color-bold-preview5.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <title>/SPAWN</title>
+    </head>
+    <body>
+
+<div id="header">
+	<a href="index.html"><div id="log">
+
+</div></a>
+<div id="menu">
+  <div id="bouton">
+    <a href="programmation.html" id="Pro">Programs</a>
+    <a href="Billeterie.html" id="Acc">Tickets</a>
+    <a href="documentation.html" id="Doc">Information</a>
+    <a href="SpawnAcces.html" id="Acc">Access</a>
+    <a href="SpawnPresse.html" id="Pre">Press</a>
+    <a href="contact.html" id="Con">Contact</a>
+
+    <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+</div>
+</div>
+<a href="../Fr/index.html" title="langue"><img src="images/drapeaux-francais-anglais-1.png" id="lang" alt="choix lang"></a>
+</div>
+</div>
+<div id="main">
+	
+	<section class="ecole">
+		<h1>Plaine Images </h1>
+		<p>La Plaine Images, in Tourcoing, is a site of excellence dedicated to digital creation in the Lille metropolis. Projects, ideas, start-ups, companies are incubated there; there are schools and businesses focused on the video game industry of tomorrow.</p>
+		
+		<h1>Serre Numérique</h1>
+		<p>La Serre Numérique, located on the banks of the Scheldt, is the site of excellence dedicated to digital creation in the Valenciennois: 26 hectares dedicated to the development of the image and digital sector where businesses intersect, schools, research and innovation.</p>
+		
+		<h1>Pôle IIID</h1>
+		<p>The Pôle IIID school is the school of image professionals: it welcomes more than 300 students every year in different areas of expertise, from 2D and 3D animation to special effects, obviously including Video Games .</p>
+		
+		<h1>ECV (Lille)</h1>
+		<p>Since its creation in 1984, the ECV - Creative Schools & Community has chosen to make the creativity of each student the source of their professional success. The school immerses its students in a community of creative talents, which nurtures and helps them progress. They now represent the largest network of professional creatives in France.</p>
+		
+		<h1>3axes Institut </h1>
+		<p>3axes Institut is a 3D computer graphics school, Digital Arts & Technologies based in Tourcoing and Rennes. It offers initial training based on the practice and theory of digital images, and specialized training in the field of video games (design and development).</p>
+		
+		<h1>ArtFX</h1>
+		<p>ARTfx is one of the reference schools in animation in the world… It prepares for the different professions of video games, but also for the professions of 2D, 3D creation, special effects, programming and stop-motion.</p>
+		
+		<h1>Rubika</h1>
+		<p>Formerly the Institut Supérieur du Design, Supinfocom and Supinfogame, Rubika is the combination of these three establishments of excellence. It offers training in the fields of video games but also in the fields of design and animation.</p>
+		
+		<h1>E-artsup</h1>
+		<p>By creating e-artsup, the IONIS group wanted to assert its desire to be present on all registers of higher education in order to create convergence. Its mission is to transform passions into jobs. Today there are alumni of e-artsup in all fields of communication, graphics, image, motion design, web, interactive design, game design, etc.</p>
+		
+		<p><a href="index.html">Retourn to home</a> </p>
+	
+	</section>
+		</div>
+	
+	
+
+
+  <footer class="footer">
+    <p>Follow the news of the event on socials</p>
+    <div class="RS">
+      <div id="YT">
+      <a href="https://www.youtube.com/channel/UC3pdNGXfPHyNTJYSMqa1zFA/?guided_help_flow=5">
+        <img src="images/Youtube.png" alt="Chaine Youtube">
+      </a></div>
+      <div id="FB">
+        <a href="https://www.facebook.com/Spawn-2020-111236173948240/">
+        <img src="images/Facebook.png" alt="Page Facebook">
+      </a></div>
+      <div id="TW">
+      <a href="https://twitter.com/2020Spawn">
+        <img src="images/Twitter.png" alt="Page Twitter">
+      </a></div>
+      <div id="IG">
+      <a href="https://www.instagram.com/spawn_salon/">
+        <img src="images/Instagram.png" alt="Page Instagram">
+      </a></div>
+    </div>
+    <img src="images/LogoTeddyStudio.png" id="logo" alt="logo entreprise">
+
+  </footer>
+
+		<script type="text/javascript">
+		const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+		function switchTheme(e) {
+		if (e.target.checked) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+
+		}
+		else {
+			document.documentElement.setAttribute('data-theme', 'light');
+		}
+		}
+
+		toggleSwitch.addEventListener('change', switchTheme, false);
+		function switchTheme(e) {
+		if (e.target.checked) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+				localStorage.setItem('theme', 'dark'); //add this
+		}
+		else {
+				document.documentElement.setAttribute('data-theme', 'light');
+				localStorage.setItem('theme', 'light'); //add this
+		}
+		}
+		</script>
+	</body>
+</html>

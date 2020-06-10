@@ -69,11 +69,14 @@ body{
   transition: 0.5s ease;
 
 }
+
+
 table{
 
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
 td{
 	text-align: center;
 }
@@ -227,34 +230,8 @@ input:checked + .slider:before {
 	border: none;
 }
 
-/** section description */
-.description{
-	text-align: center;
-	font-size: 2rem;
-	padding-left: 10%;
-	padding-right: 10%;
-}
 
-.description p{
-	background-color: #FFFFFF;
-
-}
-
-/** section etage */
-.etage>div{
-	display: flex;
-	justify-content: space-around;
-
-}
-
-.etage-item{
-	overflow: hidden;
-	display: block;
-	position: relative;
-	margin: 0;
-}
-
-
+/**section footer*/
 .footer{
 	text-align: center;
 	font-family: 'Comfortaa', cursive;

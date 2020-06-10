@@ -242,7 +242,7 @@ input:checked + .slider:before {
 }
 .footer p{
 	padding-top: 2%;
-	margin-top: 5%;
+	margin-top: 5%
 }
 #YT{
 background-image:  var(--logo-YT);

@@ -28,5 +28,6 @@ border-radius: 60px;
 	display: block;
   bottom: 0;
   position:absolute;
-	background-color: #FFFFFF;
+	background-color: var(--footer-color);
+  transition: 0.5s ease;
 }

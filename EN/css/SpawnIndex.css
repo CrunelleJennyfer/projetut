@@ -9,6 +9,10 @@
     --heading-color: #292922;
     --line-color : white;
     --btnline-color : none;
+    --logo-YT:url(../images/Youtube.png);
+    --logo-TW:url(../images/Twitter.png);
+    --logo-FB:url(../images/Facebook.png);
+    --logo-IG:url(../images/Instagram.png);
 
 }
 [data-theme="dark"] {
@@ -21,6 +25,10 @@
     --heading-color: #818cab;
     --line-color : black;
     --btnline-color : none;
+    --logo-YT:url(../images/YoutubeB.png);
+    --logo-TW:url(../images/TwitterB.png);
+    --logo-FB:url(../images/FacebookB.png);
+    --logo-IG:url(../images/InstagramB.png);
 }
 *{
 	margin: 0;
@@ -246,7 +254,8 @@ input:checked + .slider:before {
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.5rem;
 	display: block;
-	background-color: #FFFFFF;
+	background-color: var(--footer-color);
+  transition: 0.5s ease;
 }
 
 .footer img#logo{
@@ -254,5 +263,30 @@ input:checked + .slider:before {
 }
 .interview{
   text-align: center;
+
+}
+#YT{
+background-image:  var(--logo-YT);
+background-repeat: no-repeat;
+display: inline-block;
+
+
+}
+#FB{
+background-image:  var(--logo-FB);
+background-repeat: no-repeat;
+display: inline-block;
+
+}
+#TW{
+background-image:  var(--logo-TW);
+background-repeat: no-repeat;
+display: inline-block;
+
+}
+#IG{
+background-image:  var(--logo-IG);
+background-repeat: no-repeat;
+display: inline-block;
 
 }

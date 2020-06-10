@@ -35,3 +35,7 @@ border-radius: 60px;
 .footer p{
 	padding-top: 2%;
 }
+#main p{
+  padding-bottom: 30px;
+  font-size: 20px;
+}

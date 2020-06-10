@@ -290,3 +290,20 @@ display: inline-block;
   text-align: center;
 
 }
+.etage a {
+  background-color: var(--footer-color);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 15px;
+  border: solid 5px;
+transition: 0.5s ease;
+border-color: transparent;
+
+
+
+}
+.etage a:hover{
+border-color: #546DE5;
+
+}

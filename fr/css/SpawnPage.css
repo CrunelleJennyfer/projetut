@@ -16,7 +16,7 @@
 
 }
 
-}
+
 [data-theme="dark"] {
   --logo-img :url(../images/logo_vert_site.png);
     --primary-color: #9A97F3;
@@ -292,4 +292,17 @@ display: inline-block;
 }
 .footer p{
 	padding-top: 2%;
+}
+#bill{
+  margin: 30px;
+  -webkit-box-shadow: 0px 15px 49px -28px rgba(0,0,0,0.91);
+  -moz-box-shadow: 0px 15px 49px -28px rgba(0,0,0,0.91);
+  box-shadow: 0px 15px 49px -28px rgba(0,0,0,0.91);
+width: 50%;
+
+
+}
+#main p{
+  padding-bottom: 30px;
+  font-size: 20px;
 }

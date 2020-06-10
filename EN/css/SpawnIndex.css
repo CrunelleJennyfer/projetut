@@ -218,7 +218,7 @@ input:checked + .slider:before {
 	padding-left: 10%;
 	padding-right: 10%;
   transition: 0.5s ease;
-  padding-top: 20px;
+
 
 }
 

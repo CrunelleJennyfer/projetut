@@ -38,7 +38,6 @@
 html{
 	font-size: 65%;
 }
-
 p{
 	font-size: 1.8rem;
 }
@@ -70,11 +69,14 @@ body{
   transition: 0.5s ease;
 
 }
+
+
 table{
 
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
 td{
 	text-align: center;
 }
@@ -84,6 +86,7 @@ td >h1, td>p{
 	text-align: left;
 	padding-left: 5%;
 }
+
 .acces{
   text-align: center;
 }
@@ -123,18 +126,31 @@ position: fixed;
   top: 60px;
 
 }
-
 #bouton a{
-  position: relative;
+  right 1500px
+  position: absolute;
 border-radius: 60px;
   border: solid 5px ;
   border-color: var(--line-color);
   color: var(--font-color);
  text-decoration: none;
   display: inline;
-  padding-right: 25px;
-  padding-left: 25px;
+  margin-right: 5px;
+padding-left: 10px;
+padding-right: 10px;
   transition: 0.5s ease;
+  font-size: 2vw;
+
+}
+
+.theme-switch-wrapper {
+  top:60px;
+  display :inline;
+  align-items: center;
+
+padding-left: 77px;
+position: fixed;
+right: 13px;
 
 }
 #bouton a:hover{
@@ -160,7 +176,7 @@ padding-top: 250px;
 .theme-switch-wrapper {
   display :inline;
   align-items: center;
-
+padding-left: 67px;
 
 }
 .theme-switch {
@@ -227,45 +243,19 @@ input:checked + .slider:before {
 	border: none;
 }
 
-/** section description */
-.description{
-	text-align: center;
-	font-size: 2rem;
-	padding-left: 10%;
-	padding-right: 10%;
-}
 
-.description p{
-	background-color: #FFFFFF;
-
-}
-
-/** section etage */
-.etage>div{
-	display: flex;
-	justify-content: space-around;
-
-}
-
-.etage-item{
-	overflow: hidden;
-	display: block;
-	position: relative;
-	margin: 0;
-}
-
-
+/**section footer*/
 .footer{
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	font-size: 1.5rem;
 	display: block;
-	background-color:var(--footer-color);
+	background-color: var(--footer-color);
   transition: 0.5s ease;
 }
 .footer p{
 	padding-top: 2%;
-	margin-top: 5%;
+	margin-top: 5%
 }
 #YT{
 background-image:  var(--logo-YT);

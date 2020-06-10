@@ -141,6 +141,7 @@ background-color:var(--footer-color);
 transition: 0.5s ease;}
 
 
+
 #bouton{
   left: 290px;
 position: fixed;
@@ -150,20 +151,34 @@ position: fixed;
   top: 60px;
 
 }
-
 #bouton a{
-  position: relative;
+  right 1500px
+  position: absolute;
 border-radius: 60px;
   border: solid 5px ;
   border-color: var(--line-color);
   color: var(--font-color);
  text-decoration: none;
   display: inline;
-  padding-right: 25px;
-  padding-left: 25px;
+  margin-right: 5px;
+padding-left: 10px;
+padding-right: 10px;
   transition: 0.5s ease;
+  font-size: 2vw;
 
 }
+
+.theme-switch-wrapper {
+  top:60px;
+  display :inline;
+  align-items: center;
+
+padding-left: 77px;
+position: fixed;
+right: 13px;
+
+}
+
 #bouton a:hover{
 
   border-radius: 60px;

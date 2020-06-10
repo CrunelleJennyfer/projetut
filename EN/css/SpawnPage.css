@@ -114,19 +114,7 @@ position: fixed;
 
 }
 
-#bouton a{
-  position: relative;
-border-radius: 60px;
-  border: solid 5px ;
-  border-color: var(--line-color);
-  color: var(--font-color);
- text-decoration: none;
-  display: inline;
-  padding-right: 25px;
-  padding-left: 25px;
-  transition: 0.5s ease;
 
-}
 #bouton a:hover{
 
   border-radius: 60px;
@@ -149,11 +137,40 @@ text-align: center;
 	height: 30px;
 }
 
+#bouton a{
+  right 1500px
+  position: absolute;
+border-radius: 60px;
+  border: solid 5px ;
+  border-color: var(--line-color);
+  color: var(--font-color);
+ text-decoration: none;
+  display: inline;
+  margin-right: 25px;
+padding-left: 10px;
+padding-right: 10px;
+  transition: 0.5s ease;
+  font-size: 2vw;
+
+}
+
+#menu img#lang{
+  right: 13px;
+  top: 120px;
+  position: fixed;
+	margin-top: -1%;
+	max-width: 20%;
+	height: 30px;
+}
+
 .theme-switch-wrapper {
+  top:60px;
   display :inline;
   align-items: center;
-  padding-left: 67px;
 
+padding-left: 77px;
+position: fixed;
+right: 13px;
 
 }
 .theme-switch {
